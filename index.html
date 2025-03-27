@@ -7,17 +7,11 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            line-height: 1.6;
             margin: 0;
             padding: 0;
-            color: #333;
             background-color: #f4f4f4;
-        }
-        header {
-            background-color: #35424a;
-            color: white;
-            padding: 20px;
-            text-align: center;
+            color: #333;
+            line-height: 1.6;
         }
         .container {
             width: 80%;
@@ -25,77 +19,60 @@
             overflow: hidden;
             padding: 20px;
         }
+        header {
+            background: #35424a;
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
         .project {
-            background: #fff;
+            margin: 20px 0;
             padding: 20px;
-            margin-bottom: 20px;
+            background: white;
             border-radius: 5px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
         }
         footer {
-            background-color: #35424a;
+            background: #35424a;
             color: white;
             text-align: center;
             padding: 20px;
             margin-top: 20px;
         }
-        .email {
-            color: #666;
-            font-style: italic;
-        }
     </style>
 </head>
 <body>
     <header>
-        <h1>My Data Science Portfolio</h1>
-        <p>Showcasing my projects and skills</p>
+        <div class="container">
+            <h1>My Portfolio</h1>
+            <p>Data Science and Machine Learning Projects</p>
+        </div>
     </header>
-    
+
     <div class="container">
         <h2>About Me</h2>
-        <p>
-            I am a passionate data scientist with expertise in machine learning, data visualization, 
-            and statistical analysis. I enjoy solving complex problems and turning data into actionable insights.
-        </p>
+        <p>I am a passionate data scientist skilled in Python, machine learning, and data visualization.</p>
         
-        <h2>Projects</h2>
+        <h2>My Projects</h2>
         
         <div class="project">
-            <h3>Time Series Analysis</h3>
-            <p>
-                Used ARIMA and LSTM models to forecast stock prices with 85% accuracy.
-            </p>
+            <h3>Predictive Analytics Dashboard</h3>
+            <p>Built an interactive dashboard using Dash and Plotly to visualize sales predictions.</p>
         </div>
         
         <div class="project">
-            <h3>Image Classification</h3>
-            <p>
-                Developed a CNN model for classifying images with 92% accuracy using TensorFlow.
-            </p>
+            <h3>Natural Language Processing Tool</h3>
+            <p>Developed a sentiment analysis tool using BERT for customer feedback analysis.</p>
         </div>
         
         <div class="project">
-            <h3>Natural Language Processing</h3>
-            <p>
-                Built a sentiment analysis tool for analyzing customer reviews using BERT.
-            </p>
+            <h3>Image Classification Model</h3>
+            <p>Created a CNN model that achieves 95% accuracy on the CIFAR-10 dataset.</p>
         </div>
-        
-        <h2>Skills</h2>
-        <ul>
-            <li>Python (Pandas, NumPy, Scikit-learn)</li>
-            <li>Data Visualization (Matplotlib, Seaborn, Plotly)</li>
-            <li>Machine Learning (Supervised and Unsupervised)</li>
-            <li>Deep Learning (TensorFlow, PyTorch)</li>
-            <li>SQL and Database Management</li>
-            <li>Big Data Technologies (Spark, Hadoop)</li>
-        </ul>
     </div>
-    
+
     <footer>
-        <p>Contact me at: </p>
-        <p class="email"><!--email_off-->24f2006438@ds.study.iitm.ac.in<!--/email_off--></p>
-        <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+        <p>Contact me at: <!--email_off-->24f2006438@ds.study.iitm.ac.in<!--/email_off--></p>
+        <p>&copy; 2025 My Portfolio</p>
     </footer>
 </body>
 </html>
